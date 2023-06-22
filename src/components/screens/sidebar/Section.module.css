@@ -1,0 +1,28 @@
+.main {
+  @apply w-[100%] h-[3.25rem] flex justify-center text-white bg-lightGrey bg-opacity-[32%];
+}
+
+.notMain {
+  @apply w-[100%] h-[3.25rem] flex justify-center text-white text-opacity-[60%];
+}
+
+.svg {
+  @apply flex items-center;
+}
+
+.text {
+  @apply w-[10.625rem] h-[1.25rem] mt-[0.9375rem] ml-[0.75rem] mr-[0.125rem] flex items-center select-none font-Medium;
+}
+
+.pointBox {
+  @apply flex items-center;
+}
+
+.hidden {
+  @apply collapse;
+}
+
+.point {
+  box-shadow: 0px 3px 8px 0px rgba(237, 218, 1, 0.5019607843);
+  @apply w-[0.5rem] h-[0.5rem] rounded-full bg-yellow flex items-center;
+}
