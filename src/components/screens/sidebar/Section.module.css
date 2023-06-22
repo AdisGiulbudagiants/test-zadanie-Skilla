@@ -1,9 +1,12 @@
 .main {
-  @apply w-[100%] h-[3.25rem] flex justify-center text-white bg-lightGrey bg-opacity-[32%];
+  @apply w-[100%] h-[3.25rem] flex justify-center text-white bg-lightGrey bg-opacity-[32%] border border-l-[0.1875rem] border-l-blue border-t-0 border-r-0 border-b-0;
 }
 
 .notMain {
   @apply w-[100%] h-[3.25rem] flex justify-center text-white text-opacity-[60%];
+}
+.notMain:hover {
+  @apply bg-grey bg-opacity-[15%];
 }
 
 .svg {
