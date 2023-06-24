@@ -1,0 +1,19 @@
+.main {
+  @apply w-[90rem] h-[132.5rem] pt-[1.25rem] bg-green mx-auto;
+}
+
+.balanceAndDates {
+  @apply h-[2.5rem] w-[90rem] bg-red flex justify-end items-center;
+}
+
+.carousel {
+  @apply w-[7.1875rem] h-[1.5rem] flex items-center;
+}
+
+.carouselText {
+  @apply text-[0.875rem] ml-[0.5rem] text-center text-blue font-Regular  select-none;
+}
+
+.carouselDiv {
+  @apply flex flex-row justify-center items-center cursor-pointer;
+}
