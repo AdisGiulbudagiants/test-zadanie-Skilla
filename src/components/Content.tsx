@@ -1,4 +1,4 @@
-import Calendar from "./Calendar"
+import Calendar from "./calendar/Calendar"
 import styles from "./Content.module.css"
 
 type Props = {}

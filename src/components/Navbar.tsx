@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css"
 // import axios from "axios"
 
-// const url = "https://api.skilla.ru/partnership/getProfile"
+// const url = "https://api.skilla.ru/mango/getList"
 // const token = "testtoken"
 
 // axios
