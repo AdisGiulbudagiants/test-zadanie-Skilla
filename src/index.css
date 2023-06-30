@@ -10,3 +10,7 @@
   font-family: "SfMedium";
   src: url("./fonts/SFPRODISPLAYMEDIUM.OTF");
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}

@@ -920,6 +920,10 @@ video {
   margin-top: 4rem;
 }
 
+.mt-\[6px\] {
+  margin-top: 6px;
+}
+
 .mt-px {
   margin-top: 1px;
 }
@@ -1073,6 +1077,10 @@ video {
   height: 100vh;
 }
 
+.h-\[28px\] {
+  height: 28px;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1205,6 +1213,10 @@ video {
   width: 120rem;
 }
 
+.w-\[130px\] {
+  width: 130px;
+}
+
 .w-\[16px\] {
   width: 16px;
 }
@@ -1213,12 +1225,20 @@ video {
   width: 58px;
 }
 
+.w-\[65px\] {
+  width: 65px;
+}
+
 .w-\[7\.1875rem\] {
   width: 7.1875rem;
 }
 
 .w-\[74px\] {
   width: 74px;
+}
+
+.w-\[99px\] {
+  width: 99px;
 }
 
 .w-full {
@@ -1232,6 +1252,22 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[100\%px\] {
+  width: 100%px;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
 }
 
 .min-w-\[100vw\] {
@@ -2542,6 +2578,14 @@ video {
   font-size: 11px;
 }
 
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
 .text-\[1rem\] {
   font-size: 1rem;
 }
@@ -3013,6 +3057,10 @@ video {
   font-family: "SfMedium";
 
   src: url("./fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
 }
 
 .before\:pointer-events-none::before {
@@ -4264,6 +4312,10 @@ video {
   --tw-scale-y: .95;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.active\:border-none:active {
+  border-style: none;
 }
 
 .active\:bg-\[\#274BC8\]:active {

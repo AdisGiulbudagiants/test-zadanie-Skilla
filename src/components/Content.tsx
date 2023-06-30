@@ -8,6 +8,7 @@ const Content = (props: Props) => {
     <div className={styles.main}>
       <div className={styles.balanceAndDates}>
         <Calendar />
+        <div></div>
       </div>
     </div>
   )
