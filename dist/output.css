@@ -900,6 +900,14 @@ video {
   margin-right: 1.25rem;
 }
 
+.mr-\[0\.625rem\] {
+  margin-right: 0.625rem;
+}
+
+.mr-\[3rem\] {
+  margin-right: 3rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1024,6 +1032,10 @@ video {
   height: 2.25rem;
 }
 
+.h-\[1\.3125rem\] {
+  height: 1.3125rem;
+}
+
 .h-\[1\.5rem\] {
   height: 1.5rem;
 }
@@ -1052,6 +1064,10 @@ video {
   height: 24px;
 }
 
+.h-\[28px\] {
+  height: 28px;
+}
+
 .h-\[3\.25rem\] {
   height: 3.25rem;
 }
@@ -1075,10 +1091,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[28px\] {
-  height: 28px;
 }
 
 .max-h-96 {
@@ -1189,6 +1201,10 @@ video {
   width: 2.25rem;
 }
 
+.w-\[10\%\] {
+  width: 10%;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -1213,20 +1229,20 @@ video {
   width: 120rem;
 }
 
-.w-\[130px\] {
-  width: 130px;
-}
-
 .w-\[16px\] {
   width: 16px;
 }
 
-.w-\[58px\] {
-  width: 58px;
+.w-\[45\%\] {
+  width: 45%;
 }
 
-.w-\[65px\] {
-  width: 65px;
+.w-\[5\.4375rem\] {
+  width: 5.4375rem;
+}
+
+.w-\[58px\] {
+  width: 58px;
 }
 
 .w-\[7\.1875rem\] {
@@ -1237,8 +1253,8 @@ video {
   width: 74px;
 }
 
-.w-\[99px\] {
-  width: 99px;
+.w-\[9\.0625rem\] {
+  width: 9.0625rem;
 }
 
 .w-full {
@@ -1252,22 +1268,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[100\%px\] {
-  width: 100%px;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[45\%\] {
-  width: 45%;
-}
-
-.w-\[10\%\] {
-  width: 10%;
 }
 
 .min-w-\[100vw\] {
@@ -1693,6 +1693,10 @@ video {
 
 .rounded-\[0\.25rem\] {
   border-radius: 0.25rem;
+}
+
+.rounded-\[3rem\] {
+  border-radius: 3rem;
 }
 
 .rounded-\[7px\] {
@@ -2339,6 +2343,10 @@ video {
   fill: #005FF8;
 }
 
+.fill-\[\#0024CB\] {
+  fill: #0024CB;
+}
+
 .object-cover {
   object-fit: cover;
 }
@@ -2582,10 +2590,6 @@ video {
   font-size: 14px;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .text-\[1rem\] {
   font-size: 1rem;
 }
@@ -2731,6 +2735,10 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-\[0\.56\] {
+  opacity: 0.56;
 }
 
 .shadow {
@@ -4312,10 +4320,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   --tw-scale-y: .95;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.active\:border-none:active {
-  border-style: none;
 }
 
 .active\:bg-\[\#274BC8\]:active {

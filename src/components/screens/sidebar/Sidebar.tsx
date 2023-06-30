@@ -113,7 +113,10 @@ const Sidebar = () => {
         {/**Функционала на кнопках здесь нет*/}
         <div className="mt-[4rem]">
           <div className="flex justify-center">
-            <Button img={<Plus />} text={"Добавить заказ"} />
+            <Button
+              img={<Plus className="opacity-[0.56]" />}
+              text={"Добавить заказ"}
+            />
           </div>
           <div className="mt-[2rem] flex justify-center">
             <Button img={<Exclamation />} text={"Оплата"} />
